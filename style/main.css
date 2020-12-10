@@ -1,0 +1,152 @@
+:root{
+    --vermelho: #E50814;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0%;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    
+}
+
+/*Filme principal*/
+
+.imagemPrincipal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)), url(/imgs/merGrey.jpg);
+   
+    height: 600px;
+    background-size: cover;
+    background-position: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.imagemPrincipal .descript{
+    margin-bottom: 0%;
+    text-align: start;
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.titulo{
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.descript{
+    box-sizing: border-box;
+    margin-right: 30%;
+}
+
+.botao{
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border: none;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 1, 0.301);
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 3s ease all;
+}
+
+.botoes :hover{
+    color: #E50814;
+    background-color: black;
+    border: none;
+    text-shadow: 1px,1px, 2px, #E50814;
+    cursor: pointer;
+}
+
+.botao i{
+    margin-right: 9px;
+}
+.containerMain{
+    margin-left: 10px;
+    width: 80%;
+}
+
+.boxMovie{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.carrosselFilm{
+    margin-top: 2%;
+}
+
+.item{
+position: relative; top:0;
+}
+.item:hover{
+    cursor: pointer;
+    display: flex;
+    width: 120%;
+    height: 120%;
+    top: -40px;
+    left: -40px;
+    right: 20px;
+    bottom: 20px;
+    box-sizing: border-box;
+    box-shadow:0 8px 8px rgba(255, 0, 0, 0.226);
+    transition: all .2s ease-in-out;
+}
+
+.owl-carousel owl-theme:hover{
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-top: 15%;
+}
+
+.logo{
+    width: 140px;
+
+    
+}
