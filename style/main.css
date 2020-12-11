@@ -49,7 +49,7 @@ header .container{
 
 .imagemPrincipal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)), url(/imgs/merGrey.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(/imgs/merGrey.jpg);
    
     height: 600px;
     background-size: cover;
